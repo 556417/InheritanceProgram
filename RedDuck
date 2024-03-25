@@ -3,8 +3,8 @@ public class RedDuck extends Ducks{
     private int fireTemperature;
     private int fireDuration;
 
-    public RedDuck(double size, int age, String color, String ableToFly, int fireAmount, int fireTemperature, int fireDuration){
-        super(size, age, color, ableToFly);
+    public RedDuck(double size, int age, String ableToFly, int fireAmount, int fireTemperature, int fireDuration){
+        super(size, age, "red", ableToFly);
         this.fireAmount = fireAmount;
         this.fireTemperature = fireTemperature;
         this.fireDuration = fireDuration;
