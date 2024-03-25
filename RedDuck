@@ -29,7 +29,7 @@ public class RedDuck extends Ducks{
         this.fireDuration = fireDuration; 
     }
     public String toString{
-        return("The white duck is " + this.getSize() + "kg and is " + this.getAge() + " years old. It " + this.getFly() + " fly." + 
+        return("The red duck is " + this.getSize() + "kg and is " + this.getAge() + " years old. It " + this.getFly() + " fly." + 
                 "It has " + this.getFireAmount() + " pounds of fire that is " + this.getFireTemperature() + " degrees hot and lasts" + this.getFireDuration() + " seconds.");
     }
 }
