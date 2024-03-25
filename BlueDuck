@@ -1,33 +1,25 @@
-#why did i add this many ducks god help me
+// why did i add this many ducks god help me
 public class BlueDuck extends Ducks{
-    private int fireAmount;
-    private int fireTemperature;
-    private int fireDuration;
+    private int waterTemperature;
+    private int waterAmount;
 
-    public BlueDuck(double size, int age, String color, String ableToFly, int colonySize, int colonyPopulation, int colonyDistance){
+    public BlueDuck(double size, int age, String color, String ableToFly, int waterTemperature, int waterAmount){
         super(size, age, color, ableToFly);
-        this.colonySize = colonySize;
-        this.colonyPopulation = colonyPopulation;
-        this.colonyDistance = colonyDistance;
+        this.waterTemperature = waterTemperature;
+        this.waterAmount = waterAmount;
     }
 
-    public int getColonySize(){
-        return(this.colonySize);
+    public int getWaterTemperature(){
+        return(this.waterTemperature);
     }
-    public void setColonySize(int colonySize(){
-        this.colonySize = colonySize; 
+    public void setWaterTemperature(int waterTemperature(){
+        this.waterTemperature = waterTemperature; 
     }
-    public int getColonyPopulation(){
-        return(this.colonyPopulation);
+    public int getWaterAmount(){
+        return(this.waterAmount);
     }
-    public void setColonyPopulation(int colonyPopulation){
-        this.colonyPopulation = colonyPopulation; 
-    }
-    public int getColonyDistance(){
-        return(this.colonyDistance);
-    }
-    public void setColonyDistance(int colonyDistance){
-        this.colonyDistance = colonyDistance; 
+    public void setWaterAmount(int waterAmount){
+        this.waterAmount = waterAmount; 
     }
 
 }
