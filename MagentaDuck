@@ -1,1 +1,24 @@
+public class MagentaDuck extends Ducks{
+    private String magentaHue;
+    private int magentaFatalityRate;
 
+    public MagentaDuck(double size, int age, String color, String ableToFly, String magentaHue, int magentaFatalityRate){
+        super(size, age, color, ableToFly);
+        this.magentaHue = magentaHue;
+        this.magentaFatalityRate = magentaFatalityRate;
+    }
+
+    public String getMagentaHue(){
+        return(this.magentaHue);
+    }
+    public void setMagentaHue(String magentaHue(){
+        this.magentaHue = magentaHue; 
+    }
+    public int getMagentaFatalityRate(){
+        return(this.magentaFatalityRate);
+    }
+    public void setMagentaFatalityRate(int magentaFatalityRate){
+        this.magentaFatalityRate = magentaFatalityRate; 
+    }
+
+}
