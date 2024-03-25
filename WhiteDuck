@@ -1,7 +1,7 @@
 public class WhiteDuck extends Ducks{
-    private int fireAmount;
-    private int fireTemperature;
-    private int fireDuration;
+    private int colonySize;
+    private int colonyPopulation;
+    private int colonyDistance;
 
     public WhiteDuck(double size, int age, String color, String ableToFly, int colonySize, int colonyPopulation, int colonyDistance){
         super(size, age, color, ableToFly);
