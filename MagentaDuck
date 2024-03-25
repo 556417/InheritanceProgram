@@ -2,8 +2,8 @@ public class MagentaDuck extends Ducks{
     private String magentaHue;
     private int magentaFatalityRate;
 
-    public MagentaDuck(double size, int age, String color, String ableToFly, String magentaHue, int magentaFatalityRate){
-        super(size, age, color, ableToFly);
+    public MagentaDuck(double size, int age, String ableToFly, String magentaHue, int magentaFatalityRate){
+        super(size, age, "magenta", ableToFly);
         this.magentaHue = magentaHue;
         this.magentaFatalityRate = magentaFatalityRate;
     }
