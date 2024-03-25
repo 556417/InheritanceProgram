@@ -3,8 +3,8 @@ public class WhiteDuck extends Ducks{
     private int colonyPopulation;
     private int colonyDistance;
 
-    public WhiteDuck(double size, int age,, String ableToFly, int colonySize, int colonyPopulation, int colonyDistance){
-        super(size, age, "red", ableToFly);
+    public WhiteDuck(double size, int age, String ableToFly, int colonySize, int colonyPopulation, int colonyDistance){
+        super(size, age, "white", ableToFly);
         this.colonySize = colonySize;
         this.colonyPopulation = colonyPopulation;
         this.colonyDistance = colonyDistance;
