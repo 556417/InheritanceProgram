@@ -1,0 +1,31 @@
+public class RedDuck extends Ducks{
+    private int fireAmount;
+    private int fireTemperature;
+    private int fireDuration;
+
+    public RedDuck(double size, int age, String color, String ableToFly, int fireAmount, int fireTemperature, int fireDuration){
+        super(size, age, color, ableToFly);
+        this.fireAmount = fireAmount;
+        this.fireTemperature = fireTemperature;
+        this.fireDuration = fireDuration;
+    }
+
+    public int getFireAmount(){
+        return(this.fireAmount);
+    }
+    public void setFireAmount(int fireAmount(){
+        this.fireAmount = fireAmount; 
+    }
+    public int getFireTemperature(){
+        return(this.fireTemperature);
+    }
+    public void setFireTemperature(int fireTemperature){
+        this.fireTemperature = fireTemperature; 
+    }
+    public int getFireDuration(){
+        return(this.fireDuration);
+    }
+    public void setFireDuration(int fireDuration){
+        this.fireDuration = fireDuration; 
+    }
+}
