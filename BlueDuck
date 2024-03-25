@@ -1,1 +1,33 @@
 #why did i add this many ducks god help me
+public class BlueDuck extends Ducks{
+    private int fireAmount;
+    private int fireTemperature;
+    private int fireDuration;
+
+    public BlueDuck(double size, int age, String color, String ableToFly, int colonySize, int colonyPopulation, int colonyDistance){
+        super(size, age, color, ableToFly);
+        this.colonySize = colonySize;
+        this.colonyPopulation = colonyPopulation;
+        this.colonyDistance = colonyDistance;
+    }
+
+    public int getColonySize(){
+        return(this.colonySize);
+    }
+    public void setColonySize(int colonySize(){
+        this.colonySize = colonySize; 
+    }
+    public int getColonyPopulation(){
+        return(this.colonyPopulation);
+    }
+    public void setColonyPopulation(int colonyPopulation){
+        this.colonyPopulation = colonyPopulation; 
+    }
+    public int getColonyDistance(){
+        return(this.colonyDistance);
+    }
+    public void setColonyDistance(int colonyDistance){
+        this.colonyDistance = colonyDistance; 
+    }
+
+}
