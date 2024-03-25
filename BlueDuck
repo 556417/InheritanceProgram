@@ -3,8 +3,8 @@ public class BlueDuck extends Ducks{
     private int waterTemperature;
     private int waterAmount;
 
-    public BlueDuck(double size, int age, String color, String ableToFly, int waterTemperature, int waterAmount){
-        super(size, age, color, ableToFly);
+    public BlueDuck(double size, int age, String ableToFly, int waterTemperature, int waterAmount){
+        super(size, age, "blue", ableToFly);
         this.waterTemperature = waterTemperature;
         this.waterAmount = waterAmount;
     }
