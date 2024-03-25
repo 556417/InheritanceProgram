@@ -1,31 +1,32 @@
-public class RedDuck extends Ducks{
+public class WhiteDuck extends Ducks{
     private int fireAmount;
     private int fireTemperature;
     private int fireDuration;
 
-    public RedDuck(double size, int age, String color, String ableToFly, int fireAmount, int fireTemperature, int fireDuration){
+    public WhiteDuck(double size, int age, String color, String ableToFly, int colonySize, int colonyPopulation, int colonyDistance){
         super(size, age, color, ableToFly);
-        this.fireAmount = fireAmount;
-        this.fireTemperature = fireTemperature;
-        this.fireDuration = fireDuration;
+        this.colonySize = colonySize;
+        this.colonyPopulation = colonyPopulation;
+        this.colonyDistance = colonyDistance;
     }
 
-    public int getFireAmount(){
-        return(this.fireAmount);
+    public int getColonySize(){
+        return(this.colonySize);
     }
-    public void setFireAmount(int fireAmount(){
-        this.fireAmount = fireAmount; 
+    public void setColonySize(int colonySize(){
+        this.colonySize = colonySize; 
     }
-    public int getFireTemperature(){
-        return(this.fireTemperature);
+    public int getColonyPopulation(){
+        return(this.colonyPopulation);
     }
-    public void setFireTemperature(int fireTemperature){
-        this.fireTemperature = fireTemperature; 
+    public void setColonyPopulation(int colonyPopulation){
+        this.colonyPopulation = colonyPopulation; 
     }
-    public int getFireDuration(){
-        return(this.fireDuration);
+    public int getColonyDistance(){
+        return(this.colonyDistance);
     }
-    public void setFireDuration(int fireDuration){
-        this.fireDuration = fireDuration; 
+    public void setColonyDistance(int colonyDistance){
+        this.colonyDistance = colonyDistance; 
     }
+
 }
