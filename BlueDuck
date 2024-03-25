@@ -22,4 +22,9 @@ public class BlueDuck extends Ducks{
         this.waterAmount = waterAmount; 
     }
 
+    public String toString{
+        return("The blue duck is " + this.getSize() + "kg and is " + this.getAge() + " years old. It " + this.getFly() + " fly." + 
+                "It sprays " + this.getWaterTemperature() + " degrees of water with a total volume of " + this.getWaterAmount() + " gallons.");
+    }
+
 }
