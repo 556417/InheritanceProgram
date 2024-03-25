@@ -21,4 +21,8 @@ public class MagentaDuck extends Ducks{
         this.magentaFatalityRate = magentaFatalityRate; 
     }
 
+    public String toString{
+        return("The magenta duck is " + this.getSize() + "kg and is " + this.getAge() + " years old. It " + this.getFly() + " fly." + 
+                "It has a " + this.getMagentaHue() + " hue that kills " + this.getMagentaFatalityRate() + " percent of victims.");
+    }
 }
